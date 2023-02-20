@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 200px;
+    height: 70px;
+}
+.progress-in{
+    display: block;
+}
+.row1{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row2{
+    width: 200px;
+    height: 13px;
+    border-radius: 2px;
+    background-color: rgb(212, 205, 205);
+    display: flex;
+    flex-direction: row; 
+}
+.row2 > .color{
+    width: 90%;
+    height: 100%;
+    background: linear-gradient(to left,yellow,red);
+    border-radius: 2px;
+}
